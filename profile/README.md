@@ -32,14 +32,14 @@ The Clubs Council is the largest Student Administrative Organization at IIIT Hyd
 - [FRONTEND](https://github.com/Clubs-Council-IIITH/frontend): 
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/Clubs-Council-IIITH/frontend)
-    ![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/Clubs-Council-IIITH/frontend)
+    [![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/Clubs-Council-IIITH/frontend)](https://libraries.io/github/Clubs-Council-IIITH/frontend)
 
     ![GitHub language count](https://img.shields.io/github/languages/count/Clubs-Council-IIITH/frontend?style=plastic)
 
 - [BACKEND](https://github.com/Clubs-Council-IIITH/backend):
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/Clubs-Council-IIITH/backend)
-    ![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/Clubs-Council-IIITH/backend)
+    [![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/Clubs-Council-IIITH/backend)](https://libraries.io/github/Clubs-Council-IIITH/backend)
 
     ![GitHub language count](https://img.shields.io/github/languages/count/Clubs-Council-IIITH/backend?style=plastic)
 
@@ -53,7 +53,7 @@ The Clubs Council is the largest Student Administrative Organization at IIIT Hyd
 - [SERVER CONFIG](https://github.com/Clubs-Council-IIITH/server):
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/Clubs-Council-IIITH/server)
-    ![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/Clubs-Council-IIITH/server)
+    [![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/Clubs-Council-IIITH/server)](https://libraries.io/github/Clubs-Council-IIITH/server)
 
     ![GitHub language count](https://img.shields.io/github/languages/count/Clubs-Council-IIITH/server?style=plastic)
 
