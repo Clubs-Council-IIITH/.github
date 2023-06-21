@@ -12,8 +12,10 @@ The Clubs Council is the largest student administrative organization at IIIT Hyd
 
 ##  Deployment Status
 > Main Website
+>
+> [![Better Uptime Badge](https://betteruptime.com/status-badges/v1/monitor/ikqm.svg)](https://clubs_iiith.betteruptime.com/)
 
-[clubs.iiit.ac.in](https://clubs.iiit.ac.in/)  [![Better Uptime Badge](https://betteruptime.com/status-badges/v1/monitor/ikqm.svg)](https://clubs_iiith.betteruptime.com/)
+[clubs.iiit.ac.in](https://clubs.iiit.ac.in/)
 
 Website `v2` released in April, 2023.
 
