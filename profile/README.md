@@ -101,7 +101,7 @@ Website `v2` released in April, 2023.
 
     ![GitHub language count](https://img.shields.io/github/languages/count/Clubs-Council-IIITH/gateway?style=plastic)
 
-    - [Composer Service](https://github.com/Clubs-Council-IIITH/composer)
+    - [Composer Service](https://github.com/Clubs-Council-IIITH/composer) _(Deprecated & merged into gateway service itself)_
 
         ![GitHub last commit](https://img.shields.io/github/last-commit/Clubs-Council-IIITH/composer)
         [![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/Clubs-Council-IIITH/composer)](https://libraries.io/github/Clubs-Council-IIITH/composer)
