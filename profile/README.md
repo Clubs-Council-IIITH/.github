@@ -1,13 +1,12 @@
 # **Clubs Council - IIIT Hyderabad**
 
-The Clubs Council is the largest student administrative organization at IIIT Hyderabad and acts as an umbrella body of all the institute affiliated and associate student-led clubs, groups & societies.
+The Clubs Council is the largest student administrative organization at IIIT Hyderabad and acts as an umbrella body of all the institute-affiliated and associate student-led clubs, groups & societies.
 
 ---
 
 ## Current Maintainers
-- [Bhav Beri](https://github.com/bhavberi)
-- [Mihir Rawat](https://github.com/ek234)
 - [Vishva Saravanan](https://github.com/v15hv4)
+- [Bhav Beri](https://github.com/bhavberi)
 
 
 ##  Deployment Status
@@ -101,7 +100,7 @@ Website `v2` released in April, 2023.
 
     ![GitHub language count](https://img.shields.io/github/languages/count/Clubs-Council-IIITH/gateway?style=plastic)
 
-    - [Composer Service](https://github.com/Clubs-Council-IIITH/composer) _(Deprecated & merged into gateway service itself)_
+    - [Composer Service](https://github.com/Clubs-Council-IIITH/composer) _(Deprecated & merged into gateway service itself & in microservices)_
 
         ![GitHub last commit](https://img.shields.io/github/last-commit/Clubs-Council-IIITH/composer)
         [![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/Clubs-Council-IIITH/composer)](https://libraries.io/github/Clubs-Council-IIITH/composer)
