@@ -7,7 +7,8 @@ The Clubs Council is the largest student administrative organization at IIIT Hyd
 ## Current Maintainers
 - [Vishva Saravanan](https://github.com/v15hv4)
 - [Bhav Beri](https://github.com/bhavberi)
-
+- [Adari Dileepkumar](https://github.com/Dileepadari)
+- [Arjun Dosajh](https://github.com/arjundosajh)
 
 ##  Deployment Status
 > Main Website
