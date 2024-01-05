@@ -27,7 +27,7 @@ Website `v2` released in April, 2023.
 
 ## Architecture
 
-![Architecture](./profile/cc-arch.png)
+![Architecture](/profile/cc-arch.png)
 
 ## Repository Structure
 
