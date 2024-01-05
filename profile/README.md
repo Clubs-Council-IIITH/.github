@@ -25,10 +25,13 @@ Website `v2` released in April, 2023.
 
 (Works only on internal IIITH network).
 
+## Architecture
+
+![Architecture](./cc-arch.png)
 
 ## Repository Structure
 
-![Maintenance](https://img.shields.io/maintenance/yes/2023)
+![Maintenance](https://img.shields.io/maintenance/yes/2024)
 
 - [Web Client (Frontend)](https://github.com/Clubs-Council-IIITH/web)
 
@@ -101,12 +104,12 @@ Website `v2` released in April, 2023.
 
     ![GitHub language count](https://img.shields.io/github/languages/count/Clubs-Council-IIITH/gateway?style=plastic)
 
-    - [Composer Service](https://github.com/Clubs-Council-IIITH/composer) _(Deprecated & merged into gateway service itself & in microservices)_
+    - [~Composer Service~](https://github.com/Clubs-Council-IIITH/composer) _(Deprecated & merged into gateway service itself & in microservices)_
 
-        ![GitHub last commit](https://img.shields.io/github/last-commit/Clubs-Council-IIITH/composer)
-        [![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/Clubs-Council-IIITH/composer)](https://libraries.io/github/Clubs-Council-IIITH/composer)
+        <!-- ![GitHub last commit](https://img.shields.io/github/last-commit/Clubs-Council-IIITH/composer)
+        <> [![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/Clubs-Council-IIITH/composer)](https://libraries.io/github/Clubs-Council-IIITH/composer) -->
 
-        ![GitHub language count](https://img.shields.io/github/languages/count/Clubs-Council-IIITH/composer?style=plastic)
+        <!-- ![GitHub language count](https://img.shields.io/github/languages/count/Clubs-Council-IIITH/composer?style=plastic) -->
 
 - [Feeder Service Config](https://github.com/Clubs-Council-IIITH/feeder)
 
