@@ -5,17 +5,17 @@ The Clubs Council is the largest student administrative organization at IIIT Hyd
 ---
 
 ## Current Maintainers
-- [Vishva Saravanan](https://github.com/v15hv4)
 - [Bhav Beri](https://github.com/bhavberi)
 - [Adari Dileepkumar](https://github.com/Dileepadari)
 - [Abhiram Tilak](https://github.com/abhiramtilakiiit)
 - [Aneesh Sambu](https://github.com/sambuaneesh)
 - [Adithya Kishor](https://github.com/The-Coder-Kishor)
+- [Vishva Saravanan](https://github.com/v15hv4)
 
 ##  Deployment Status
 > Main Website
 >
-> [![Better Uptime Badge](https://betteruptime.com/status-badges/v1/monitor/ikqm.svg)](https://clubs_iiith.betteruptime.com/)
+> [![Better Uptime Badge](https://betteruptime.com/status-badges/v3/monitor/ikqm.svg)](https://clubs_iiith.betteruptime.com/)
 
 [clubs.iiit.ac.in](https://clubs.iiit.ac.in/)
 
