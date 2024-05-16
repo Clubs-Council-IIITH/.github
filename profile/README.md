@@ -77,6 +77,13 @@ Website `v2` released in April, 2023.
         [![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/Clubs-Council-IIITH/clubs)](https://libraries.io/github/Clubs-Council-IIITH/clubs)
 
         ![GitHub language count](https://img.shields.io/github/languages/count/Clubs-Council-IIITH/clubs?style=plastic)
+
+    - [Members Service](https://github.com/Clubs-Council-IIITH/members)
+
+        ![GitHub last commit](https://img.shields.io/github/last-commit/Clubs-Council-IIITH/members)
+        [![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/Clubs-Council-IIITH/members)](https://libraries.io/github/Clubs-Council-IIITH/members)
+
+        ![GitHub language count](https://img.shields.io/github/languages/count/Clubs-Council-IIITH/members?style=plastic)
     
     - [Events Service](https://github.com/Clubs-Council-IIITH/events)
 
