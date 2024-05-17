@@ -1,3 +1,9 @@
+# **Student Life Committee (SLC) - IIIT Hyderabad**
+
+The Student Life Committee enhances the overall student experience and fosters a vibrant and inclusive campus community. We believe that student life is an integral part of a well-rounded education, and we strive to create opportunities for personal growth, leadership development, and meaningful connections among students.
+
+Our committee consists of passionate student representatives who work closely with faculty, staff, and the wider student body to organize and coordinate a wide range of events, programs, and initiatives. From social gatherings and cultural celebrations to educational workshops and community service projects, we aim to provide diverse opportunities for students to explore their interests, build lasting friendships, and make a positive impact on campus.
+
 # **Clubs Council - IIIT Hyderabad**
 
 The Clubs Council is the largest student administrative organization at IIIT Hyderabad and acts as an umbrella body of all the institute-affiliated and associate student-led clubs, groups & societies.
@@ -122,10 +128,10 @@ Website `v2` released in April, 2023.
 
 - [~Feeder Service Config~](https://github.com/Clubs-Council-IIITH/feeder) _(Deprecated)_
 
-    ![GitHub last commit](https://img.shields.io/github/last-commit/Clubs-Council-IIITH/feeder)
+    <!--![GitHub last commit](https://img.shields.io/github/last-commit/Clubs-Council-IIITH/feeder) -->
     <!-- [![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/Clubs-Council-IIITH/feeder)](https://libraries.io/github/Clubs-Council-IIITH/feeder) -->
 
-    ![GitHub language count](https://img.shields.io/github/languages/count/Clubs-Council-IIITH/feeder?style=plastic)
+    <!--![GitHub language count](https://img.shields.io/github/languages/count/Clubs-Council-IIITH/feeder?style=plastic) -->
 
 - [Reverse Proxy Server Config](https://github.com/Clubs-Council-IIITH/reverse-proxy)
 
