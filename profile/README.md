@@ -39,7 +39,7 @@ Website `v2` released in April, 2023.
 
 ## Repository Structure
 
-![Maintenance](https://img.shields.io/maintenance/yes/2024)
+![Maintenance](https://img.shields.io/maintenance/yes/2025)
 
 - [Web Client (Frontend)](https://github.com/Clubs-Council-IIITH/web)
 
