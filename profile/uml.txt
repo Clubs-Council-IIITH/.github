@@ -1,0 +1,48 @@
+@startuml
+skinparam backgroundColor #ffffff
+skinparam linetype ortho
+
+title Clubs Council System Architecture
+
+rectangle "NextJS\nWeb Client" as NextJSClient #f0f8ff
+
+rectangle "NGINX\nReverse Proxy" as NginxProxy #f0f0f0
+rectangle "File Transfer\nService" as FileTransfer #e0ffe0
+rectangle "GraphQL\nGateway" as GraphQLGateway #e0e0ff
+rectangle "Authentication\nService" as AuthService #fff0e0
+
+rectangle "User Management\n(FastAPI+Strawberry)" as UserMicroservice #d0e0ff
+rectangle "Club Management\n(FastAPI+Strawberry)" as ClubMicroservice #d0e0ff
+rectangle "Event Management\n(FastAPI+Strawberry)" as EventMicroservice #d0e0ff
+rectangle "Member Management\n(FastAPI+Strawberry)" as MemberMicroservice #d0e0ff
+rectangle "Interfaces\n(FastAPI+Strawberry)" as InterfacesMicroservice #d0e0ff
+
+rectangle "IIITH CAS" as IIIT_CAS #f0f0f0
+rectangle "Microsoft\nOutlook" as Outlook #f0f0f0
+rectangle "Other\nExternal APIs" as ExternalAPIs #f0f0f0
+
+NextJSClient --> NginxProxy
+NginxProxy --> GraphQLGateway
+NginxProxy --> FileTransfer
+NginxProxy --> AuthService
+AuthService --> IIIT_CAS
+GraphQLGateway --> UserMicroservice
+GraphQLGateway --> ClubMicroservice
+GraphQLGateway --> EventMicroservice
+GraphQLGateway --> MemberMicroservice
+GraphQLGateway --> InterfacesMicroservice
+InterfacesMicroservice --> Outlook
+InterfacesMicroservice --> ExternalAPIs
+
+NginxProxy -[hidden]d- GraphQLGateway
+GraphQLGateway -[hidden]d- FileTransfer
+FileTransfer -[hidden]d- AuthService
+
+UserMicroservice -[hidden]r- ClubMicroservice
+ClubMicroservice -[hidden]r- EventMicroservice
+EventMicroservice -[hidden]r- MemberMicroservice
+MemberMicroservice -[hidden]r- InterfacesMicroservice
+
+IIIT_CAS -[hidden]r- Outlook
+Outlook -[hidden]r- ExternalAPIs
+@enduml
