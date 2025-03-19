@@ -36,7 +36,6 @@ Website `v2` released in April, 2023.
 ## Architecture
 
 ![Architecture](/profile/cc-arch.png)
-[Link](https://shorturl.at/w9UK5) to uml diagram
 
 ## Repository Structure
 
