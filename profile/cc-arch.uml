@@ -1,26 +1,40 @@
 @startuml
 skinparam backgroundColor #ffffff
 skinparam linetype ortho
+skinparam rectangleBorderColor black
+skinparam shadowing true
 
-title Clubs Council System Architecture
+title **Clubs Council System Architecture**
 
-rectangle "NextJS\nWeb Client" as NextJSClient #f0f8ff
+package "Client Layer" {
+    rectangle "NextJS\nWeb Client" as NextJSClient #f0f8ff
+}
 
-rectangle "NGINX\nReverse Proxy" as NginxProxy #f0f0f0
-rectangle "File Transfer\nService" as FileTransfer #e0ffe0
-rectangle "GraphQL\nGateway" as GraphQLGateway #e0e0ff
-rectangle "Authentication\nService" as AuthService #fff0e0
+package "Middelware Layer" {
+    rectangle "NGINX\nReverse Proxy" as NginxProxy #f0f0f0
+    rectangle "GraphQL\nGateway" as GraphQLGateway #e0e0ff
+}
 
-rectangle "User Management\n(FastAPI+Strawberry)" as UserMicroservice #d0e0ff
-rectangle "Club Management\n(FastAPI+Strawberry)" as ClubMicroservice #d0e0ff
-rectangle "Event Management\n(FastAPI+Strawberry)" as EventMicroservice #d0e0ff
-rectangle "Member Management\n(FastAPI+Strawberry)" as MemberMicroservice #d0e0ff
-rectangle "Interfaces\n(FastAPI+Strawberry)" as InterfacesMicroservice #d0e0ff
+package "APIs" {
+    rectangle "File Transfer\nService" as FileTransfer #e0ffe0
+    rectangle "Authentication\nService" as AuthService #fff0e0
+    rectangle "IIITH CAS" as IIIT_CAS #f0f0f0
+}
 
-rectangle "IIITH CAS" as IIIT_CAS #f0f0f0
-rectangle "Microsoft\nOutlook" as Outlook #f0f0f0
-rectangle "Other\nExternal APIs" as ExternalAPIs #f0f0f0
+package "Microservices" {
+    rectangle "User Management\n(FastAPI+Strawberry)" as UserMicroservice #d0e0ff
+    rectangle "Club Management\n(FastAPI+Strawberry)" as ClubMicroservice #d0e0ff
+    rectangle "Event Management\n(FastAPI+Strawberry)" as EventMicroservice #d0e0ff
+    rectangle "Member Management\n(FastAPI+Strawberry)" as MemberMicroservice #d0e0ff
+    rectangle "Interfaces\n(FastAPI+Strawberry)" as InterfacesMicroservice #d0e0ff
+}
 
+package "External APIs" {
+    rectangle "Microsoft\nOutlook" as Outlook #f0f0f0
+    rectangle "Other\nExternal APIs" as ExternalAPIs #f0f0f0
+}
+
+' Relationships
 NextJSClient --> NginxProxy
 NginxProxy --> GraphQLGateway
 NginxProxy --> FileTransfer
@@ -34,15 +48,15 @@ GraphQLGateway --> InterfacesMicroservice
 InterfacesMicroservice --> Outlook
 InterfacesMicroservice --> ExternalAPIs
 
+' Hidden links for alignment
 NginxProxy -[hidden]d- GraphQLGateway
 GraphQLGateway -[hidden]d- FileTransfer
 FileTransfer -[hidden]d- AuthService
-
 UserMicroservice -[hidden]r- ClubMicroservice
 ClubMicroservice -[hidden]r- EventMicroservice
 EventMicroservice -[hidden]r- MemberMicroservice
 MemberMicroservice -[hidden]r- InterfacesMicroservice
-
 IIIT_CAS -[hidden]r- Outlook
 Outlook -[hidden]r- ExternalAPIs
+
 @enduml
