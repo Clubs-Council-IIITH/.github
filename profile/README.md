@@ -16,7 +16,8 @@ The Clubs Council is the largest student administrative organization at IIIT Hyd
 - [Abhiram Tilak](https://github.com/abhiramtilakiiit)
 - [Shreyansh](https://github.com/The-Broken-Keyboard)
 - [Evan Bijoy](https://github.com/EvanBijoy)
-- [Vishva Saravanan](https://github.com/v15hv4)
+- [Palla Rithik Reddy](https://github.com/rithikreddypalla)
+- [Ojas Kataria](https://github.com/irishbumfuzzle)
 
 ##  Deployment Status
 > Main Website
@@ -133,8 +134,8 @@ Website `v2` released in April, 2023.
 
     <!--![GitHub language count](https://img.shields.io/github/languages/count/Clubs-Council-IIITH/feeder?style=plastic) -->
 
-- [Reverse Proxy Server Config](https://github.com/Clubs-Council-IIITH/reverse-proxy)
+- [~Reverse Proxy Server Config~](https://github.com/Clubs-Council-IIITH/reverse-proxy) _(Deprecated)_
 
-    ![GitHub last commit](https://img.shields.io/github/last-commit/Clubs-Council-IIITH/reverse-proxy)
+    <!--![GitHub last commit](https://img.shields.io/github/last-commit/Clubs-Council-IIITH/reverse-proxy)-->
 
-    ![GitHub language count](https://img.shields.io/github/languages/count/Clubs-Council-IIITH/reverse-proxy?style=plastic)
+    <!--![GitHub language count](https://img.shields.io/github/languages/count/Clubs-Council-IIITH/reverse-proxy?style=plastic)-->
